@@ -40,7 +40,7 @@ const Services = ({ youtubeStats, youtubeVideos }) => {
                     style={{ padding: "10px" }}
                     key={video.id.videoId}
                   >
-                    <Image
+                    <img
                       src={video.snippet.thumbnails.medium.url}
                       height={0}
                       width={0}
@@ -78,7 +78,7 @@ const Services = ({ youtubeStats, youtubeVideos }) => {
             <SectionSubtitle subtitle="Youtube" />
             <h3 className="mb-0 mt-4">Popular</h3>
             <h3 className="mb-2">Uploads from My Youtube Channel</h3>
-            <p style={{width:'400px',textAlign:'justify'}}>
+            <p>
               I would really appreciate it if you could check it out and maybe
               even hit the subscribe button if you enjoy the content.
             </p>
